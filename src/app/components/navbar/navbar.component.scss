@@ -80,11 +80,13 @@ ol {
   
 #mainHeader {
 color:whitesmoke;
+text-align: center;
+ 
 }
 
 
 #navButtons {
-  padding: 10 px;
+  
   font-family: 'Marcellus SC', serif;
   
   background: linear-gradient(271deg, #4A76A0, #0045F3, #50bcee, #680696);
@@ -163,3 +165,12 @@ animation: AnimationName 30s ease infinite;
 }
 
 
+#navLinks {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-left:55px;
+  padding-right:55px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
