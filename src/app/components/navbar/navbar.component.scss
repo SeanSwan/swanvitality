@@ -1,10 +1,4 @@
-html,
-body,
-ul,
-ol {
-  margin:  0;
-  padding: 0;
-}
+
 
 #backgroundMain {
   font-family: 'Marcellus SC', serif;
@@ -44,7 +38,7 @@ ol {
 
 #buttonBackground {
   font-family: 'Marcellus SC', serif;
-  
+  align-content: center;
   background: linear-gradient(271deg, #4A76A0, #0045F3, #50bcee, #680696);
   background-size: 1000% 1000%;
   
@@ -128,9 +122,9 @@ text-align: center;
 
 
 
-#mainHeader {
+#mainHeaderColor {
 
-
+width: 100%;
 font-family: 'Marcellus SC', serif;
 
 background: linear-gradient(271deg, #4A76A0, #0045F3, #50bcee, #680696);
@@ -173,4 +167,5 @@ animation: AnimationName 30s ease infinite;
   padding-right:55px;
   margin-top: 15px;
   margin-bottom: 15px;
+  
 }
