@@ -75,14 +75,15 @@
 #mainHeader {
 color:whitesmoke;
 text-align: center;
+text-shadow: 3px 3px 3px #000;
  
 }
 
 
 #navButtons {
-  
+  padding-left: 105px;
   font-family: 'Marcellus SC', serif;
-  
+  text-shadow: 3px 3px 3px #000;
   background: linear-gradient(271deg, #4A76A0, #0045F3, #50bcee, #680696);
   background-size: 1000% 1000%;
   
@@ -123,10 +124,7 @@ text-align: center;
 
 
 #mainHeaderColor {
-
-width: 100%;
 font-family: 'Marcellus SC', serif;
-
 background: linear-gradient(271deg, #4A76A0, #0045F3, #50bcee, #680696);
 background-size: 1000% 1000%;
 

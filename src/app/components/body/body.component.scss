@@ -5,3 +5,23 @@ body#background {
     -o-background-size: cover;
     -webkit-background-size: cover;
     }
+
+.card {
+        border-style: solid;
+        background-color: #0045F3;
+        opacity: 0.9;
+        border-radius: 75px;
+        color: grey;
+        box-shadow: 3px 3px 3px;
+        padding: 5px 5px 5px 5px;
+        margin: 10px 10px 10px 10px;
+        font-size: 20px;
+        font-family: 'Marcellus SC', serif;
+        align-content: center;
+        
+    }
+
+    .card-title {
+      color: whitesmoke;
+
+    }

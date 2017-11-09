@@ -14,7 +14,7 @@ import { VideosComponent } from './components/videos/videos.component';
 import { PackagesComponent } from './components/packages/packages.component';
 import { NewsComponent } from './components/news/news.component';
 const appRoutes: Routes = [ 
-  {path: '', component:BodyComponent},
+  {path: '', component:NavbarComponent},
   {path:'about', component:AboutComponent},
   {path:'videos', component:VideosComponent},
   {path:'splash', component:SplashComponent},
@@ -22,6 +22,7 @@ const appRoutes: Routes = [
   {path:'navbar', component:NavbarComponent},
   {path:'news', component:NewsComponent},
   {path:'sidebar', component:SidebarComponent},
+  {path:'footer', component:FooterComponent},
  ]
 
 @NgModule({
