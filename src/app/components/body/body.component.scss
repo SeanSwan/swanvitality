@@ -1,5 +1,5 @@
 body#background {
-    background: url("body-assets/Splash.jpg") no-repeat 50% 50% fixed;
+    background: url("../../../assets/Splash.jpg") no-repeat 50% 50% fixed;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,7 +10,7 @@ body#background {
         border-style: solid;
         background-color: #0045F3;
         opacity: 0.9;
-        border-radius: 75px;
+        border-radius: 60px;
         color: grey;
         box-shadow: 3px 3px 3px;
         padding: 5px 5px 5px 5px;
@@ -24,4 +24,10 @@ body#background {
     .card-title {
       color: whitesmoke;
 
+    }
+
+    #cardImage {
+        border-radius: 75px;
+        width: 300px;
+        height: 300px;
     }
